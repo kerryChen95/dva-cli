@@ -1,6 +1,6 @@
-import React from 'react';
-import { connect } from 'dva';
-import styles from './IndexPage.css';
+import React from 'react'
+import { connect } from 'dva'
+import styles from './IndexPage.css'
 
 function IndexPage() {
   return (
@@ -12,10 +12,7 @@ function IndexPage() {
         <li><a href="https://github.com/dvajs/dva-docs/blob/master/v1/en-us/getting-started.md">Getting Started</a></li>
       </ul>
     </div>
-  );
+  )
 }
 
-IndexPage.propTypes = {
-};
-
-export default connect()(IndexPage);
+export default connect()(IndexPage)
